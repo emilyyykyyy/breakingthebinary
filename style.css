@@ -1,0 +1,38 @@
+body {
+  font-family: 'Lucida';
+  background-color: #dfe3e6;
+  color: black;
+}
+
+@font-face {
+  font-family: 'Lucida';
+  src: url('assets/fonts/lucidafax.ttf') format('truetype');
+}
+
+.home {
+	text-align: center;
+}
+
+.poemlink a {
+	text-decoration: none;
+}
+
+.poetry {
+	padding: 50px;
+}
+
+.return {
+	color: black;
+	text-align: center;
+	display: block;
+}
+
+.bgimg {
+	float:right;
+	position: fixed;
+	bottom:50px;
+	right: 50px;
+	vertical-align: top;
+	overflow-clip-margin: content-box;
+	overflow: clip;
+}
